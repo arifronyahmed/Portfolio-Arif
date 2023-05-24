@@ -1,0 +1,68 @@
+body {
+  margin: 5%;
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+:root {
+  --bs-secondary: #e65528;
+}
+.hero-sub-text {
+  color: #dde6e6;
+}
+.nav-link {
+  color: #dde6e6;
+}
+
+.nav-link:hover {
+  color: var(--bs-secondary);
+}
+
+.name {
+  font-size: 6rem;
+  font-family: "Berkshire Swash";
+  word-spacing: 1rem;
+}
+
+.about-text {
+  color: #dde6e6;
+}
+
+h1,
+h2,
+h4 {
+  color: var(--bs-secondary);
+}
+
+.my-card {
+  width: 8rem;
+}
+.card-title {
+  color: #dde6e6;
+}
+.contact-details {
+  height: 15rem;
+}
+
+.my-card {
+  color: var(--bs-secondary);
+}
+
+.icon {
+  color: var(--bs-secondary);
+}
+
+@media (min-width: 300px) {
+  .name {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .name {
+    font-size: 3rem;
+  }
+}
+
+#text-exp {
+  color: #dde6e6;
+}
